@@ -18,10 +18,10 @@
     <ClCompile Include="input\InputHandler.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Scenes\FirstScene.cpp">
+    <ClCompile Include="scenes\FirstScene.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Scenes\MainMenuScene.cpp">
+    <ClCompile Include="scenes\MainMenuScene.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\SysInit.cpp">
@@ -41,10 +41,10 @@
     <ClInclude Include="input\InputHandler.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Scenes\FirstScene.h">
+    <ClInclude Include="scenes\FirstScene.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Scenes\MainMenuScene.h">
+    <ClInclude Include="scenes\MainMenuScene.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\Scene.h">
@@ -1193,6 +1193,9 @@
     <ClInclude Include="dependencies\includes\assimp\Compiler\pushpack1.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="shaders\Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="model\h" />
@@ -1643,6 +1646,8 @@
     <None Include="dependencies\includes\glm\detail\type_vec4_simd.inl">
       <Filter>Header Files</Filter>
     </None>
+    <None Include="shaders\vertex_shader.glsl" />
+    <None Include="shaders\fragment_shader.glsl" />
   </ItemGroup>
   <ItemGroup>
     <Library Include="dependencies\libraries\assimp-vc143-mtd.lib" />

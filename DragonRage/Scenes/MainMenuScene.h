@@ -4,8 +4,13 @@
 
 #include "../src/Scene.h"
 #include "../src/SceneManager.h"
+#include "../shaders/Shader.h"
 #include "FirstScene.h"
+#include <glad/glad.h>
 #include <GLFW/glfw3.h>
+#include <glm/glm.hpp>
+#include <glm/gtc/matrix_transform.hpp>
+#include <glm/gtc/type_ptr.hpp>
 #include <iostream>
 
 struct Button {
@@ -15,7 +20,7 @@ struct Button {
 
 class MainMenuScene : public Scene {
 public:
-    MainMenuScene(SceneManager& manager) : sceneManager(manager) {}
+    MainMenuScene(SceneManager& manager);
 
     void                              load() override;
     void                    update(float dt) override;
@@ -25,6 +30,7 @@ public:
 
 private:
     SceneManager&                                                      sceneManager;
+    Shader*                                                                  shader;
     static Button                                                        playButton;
     static void mouseCallback(GLFWwindow* window, int button, int action, int mods);
 };

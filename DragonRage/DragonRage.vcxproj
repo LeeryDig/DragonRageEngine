@@ -135,8 +135,8 @@
     <ClCompile Include="..\..\..\OpenGL\glad\src\glad.c" />
     <ClCompile Include="dependencies\includes\glm\detail\glm.cpp" />
     <ClCompile Include="input\InputHandler.cpp" />
-    <ClCompile Include="Scenes\FirstScene.cpp" />
-    <ClCompile Include="Scenes\MainMenuScene.cpp" />
+    <ClCompile Include="scenes\FirstScene.cpp" />
+    <ClCompile Include="scenes\MainMenuScene.cpp" />
     <ClCompile Include="src\SysInit.cpp" />
     <ClCompile Include="window\WindowManager.cpp" />
   </ItemGroup>
@@ -520,8 +520,9 @@
     <ClInclude Include="dependencies\includes\GL\wglew.h" />
     <ClInclude Include="dependencies\includes\KHR\khrplatform.h" />
     <ClInclude Include="input\InputHandler.h" />
-    <ClInclude Include="Scenes\FirstScene.h" />
-    <ClInclude Include="Scenes\MainMenuScene.h" />
+    <ClInclude Include="scenes\FirstScene.h" />
+    <ClInclude Include="scenes\MainMenuScene.h" />
+    <ClInclude Include="shaders\Shader.h" />
     <ClInclude Include="src\Scene.h" />
     <ClInclude Include="src\SceneManager.h" />
     <ClInclude Include="src\SysState.H" />
@@ -684,6 +685,8 @@
     <None Include="model\Mazda.blend" />
     <None Include="model\monkey.fbx" />
     <None Include="model\monkey.mtl" />
+    <None Include="shaders\fragment_shader.glsl" />
+    <None Include="shaders\vertex_shader.glsl" />
   </ItemGroup>
   <ItemGroup>
     <Library Include="dependencies\libraries\assimp-vc143-mtd.lib" />
