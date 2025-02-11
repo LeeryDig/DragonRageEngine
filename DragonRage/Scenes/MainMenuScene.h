@@ -15,6 +15,7 @@
 
 struct Button {
     float x, y, width, height;
+    float r, g, b;
     const char* text;
 };
 
@@ -22,17 +23,17 @@ class MainMenuScene : public Scene {
 public:
     MainMenuScene(SceneManager& manager);
 
-    void                              load() override;
-    void                    update(float dt) override;
-    void                            render() override;
-    void                            unload() override;
-    void initializeInput(GLFWwindow* window) override;
+    void load() override;
+    void update(float dt) override;
+    void render() override;
+    void unload() override;
 
 private:
     SceneManager&                                                      sceneManager;
     Shader*                                                                  shader;
-    static Button                                                        playButton;
+    static Button                                                           playBtn;
     static void mouseCallback(GLFWwindow* window, int button, int action, int mods);
+    unsigned int                                                      VAO, VBO, EBO;
 };
 
 

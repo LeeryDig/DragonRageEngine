@@ -1196,6 +1196,12 @@
     <ClInclude Include="shaders\Shader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="input\camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shaders\ShaderLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="model\h" />
@@ -1646,8 +1652,10 @@
     <None Include="dependencies\includes\glm\detail\type_vec4_simd.inl">
       <Filter>Header Files</Filter>
     </None>
-    <None Include="shaders\vertex_shader.glsl" />
-    <None Include="shaders\fragment_shader.glsl" />
+    <None Include="shaders\button_vec_shader.glsl" />
+    <None Include="shaders\button_frag_shader.glsl" />
+    <None Include="shaders\cube_ver_shader.glsl" />
+    <None Include="shaders\cube_frag_shader.glsl" />
   </ItemGroup>
   <ItemGroup>
     <Library Include="dependencies\libraries\assimp-vc143-mtd.lib" />
