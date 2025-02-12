@@ -27,10 +27,6 @@ private:
     SceneManager&                 sceneManager;
     Shader*                             shader;
     unsigned int                 VAO, VBO, EBO;    
-    glm::mat4                       projection;
-    glm::mat4                             view;
-    Camera                              camera;
-    float                          cameraSpeed;
 };
 
 #endif

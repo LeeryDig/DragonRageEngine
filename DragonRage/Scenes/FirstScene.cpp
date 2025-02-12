@@ -1,20 +1,25 @@
 #include "FirstScene.h"
 
-float xoffset;
-float yoffset;
+// Precisa melhorar e tirar essas variaveis daqui
 void mouse_callback(GLFWwindow* window, double xpos, double ypos);
-float lastX = 1000 / 2.0f; // Precisa melhorar e tirar essas variaveis daqui
-float lastY = 800 / 2.0f;
+
+int SCR_WIDTH;
+int SCR_HEIGHT;
+
+Camera camera(glm::vec3(0.0f, 0.0f, 3.0f));
+float lastX = SCR_WIDTH / 2.0f;
+float lastY = SCR_HEIGHT / 2.0f;
 bool firstMouse = true;
 
 FirstScene::FirstScene(SceneManager& manager)
-    : sceneManager(manager), VAO(0), VBO(0), EBO(0), shader(nullptr), camera(glm::vec3(0.0f, 0.0f, 3.0f)) {
+    : sceneManager(manager), VAO(0), VBO(0), EBO(0), shader(nullptr) {
 }
 
 void FirstScene::load() {
     std::cout << "First Scene Loaded\n";
     // Load assets, create objects, initialize game state
     glfwSetInputMode(glfwGetCurrentContext(), GLFW_CURSOR, GLFW_CURSOR_DISABLED);
+    glfwGetFramebufferSize(glfwGetCurrentContext(), &SCR_WIDTH, &SCR_HEIGHT);
 
     glEnable(GL_DEPTH_TEST);
 
@@ -91,17 +96,14 @@ void FirstScene::update(float dt) {
     // Update game objects, physics, input handling
     ProcessInputGame(glfwGetCurrentContext(), dt, camera);
     glfwSetCursorPosCallback(glfwGetCurrentContext(), mouse_callback);
-    camera.ProcessMouseMovement(xoffset, yoffset);
 }
 
 void FirstScene::render() {
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
     //Camera
-    int width, height;
-    glfwGetFramebufferSize(glfwGetCurrentContext(), &width, &height);
     shader->use();
-    glm::mat4 projection = glm::perspective(glm::radians(camera.Zoom), (float)width / (float)height, 0.1f, 100.0f);
+    glm::mat4 projection = glm::perspective(glm::radians(camera.Zoom), (float)SCR_WIDTH / (float)SCR_HEIGHT, 0.1f, 100.0f);
     shader->setMat4("projection", projection);
     glm::mat4 view = camera.GetViewMatrix();
     shader->setMat4("view", view);
@@ -153,9 +155,11 @@ void mouse_callback(GLFWwindow* window, double xposIn, double yposIn) {
         firstMouse = false;
     }
 
-    xoffset = xpos - lastX;
-    yoffset = lastY - ypos;
+    float xoffset = xpos - lastX;
+    float yoffset = lastY - ypos;
 
     lastX = xpos;
-    lastY = ypos;    
+    lastY = ypos;
+
+    camera.ProcessMouseMovement(xoffset, yoffset);
 }

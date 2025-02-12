@@ -33,8 +33,4 @@ void ProcessInputGame(GLFWwindow* window, float deltaTime, Camera& camera) {
 	if (glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS) {
 		camera.ProcessKeyboard(RIGHT, deltaTime);
 	}
-	std::cout << "Camera Position: ("
-		<< camera.Position.x << ", "
-		<< camera.Position.y << ", "
-		<< camera.Position.z << ")" << std::endl;
 }

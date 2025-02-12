@@ -137,6 +137,9 @@
     <ClCompile Include="input\InputHandler.cpp" />
     <ClCompile Include="scenes\FirstScene.cpp" />
     <ClCompile Include="scenes\MainMenuScene.cpp" />
+    <ClCompile Include="shaders\EBO.cpp" />
+    <ClCompile Include="shaders\VAO.cpp" />
+    <ClCompile Include="shaders\VBO.cpp" />
     <ClCompile Include="src\SysInit.cpp" />
     <ClCompile Include="window\WindowManager.cpp" />
   </ItemGroup>
@@ -523,8 +526,11 @@
     <ClInclude Include="input\InputHandler.h" />
     <ClInclude Include="scenes\FirstScene.h" />
     <ClInclude Include="scenes\MainMenuScene.h" />
+    <ClInclude Include="shaders\EBO.h" />
     <ClInclude Include="shaders\Shader.h" />
     <ClInclude Include="shaders\ShaderLoader.h" />
+    <ClInclude Include="shaders\VAO.h" />
+    <ClInclude Include="shaders\VBO.h" />
     <ClInclude Include="src\Scene.h" />
     <ClInclude Include="src\SceneManager.h" />
     <ClInclude Include="src\SysState.H" />
@@ -683,14 +689,15 @@
     <None Include="dependencies\includes\glm\gtx\wrap.inl" />
     <None Include="dependencies\libraries\assimp-vc143-mtd.exp" />
     <None Include="dependencies\libraries\assimp-vc143-mtd.pdb" />
-    <None Include="model\h" />
-    <None Include="model\Mazda.blend" />
-    <None Include="model\monkey.fbx" />
-    <None Include="model\monkey.mtl" />
+    <None Include="assets\Mazda.blend" />
+    <None Include="assets\monkey.fbx" />
+    <None Include="assets\monkey.mtl" />
     <None Include="shaders\button_frag_shader.glsl" />
     <None Include="shaders\button_vec_shader.glsl" />
     <None Include="shaders\cube_frag_shader.glsl" />
     <None Include="shaders\cube_ver_shader.glsl" />
+    <None Include="shaders\default.frag" />
+    <None Include="shaders\default.vert" />
   </ItemGroup>
   <ItemGroup>
     <Library Include="dependencies\libraries\assimp-vc143-mtd.lib" />

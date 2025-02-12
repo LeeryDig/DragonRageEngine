@@ -36,6 +36,15 @@
     <ClCompile Include="dependencies\includes\glm\detail\glm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="shaders\VBO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shaders\VAO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shaders\EBO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="input\InputHandler.h">
@@ -1202,12 +1211,20 @@
     <ClInclude Include="shaders\ShaderLoader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="shaders\VBO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shaders\VAO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shaders\EBO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="model\h" />
-    <None Include="model\Mazda.blend" />
-    <None Include="model\monkey.fbx" />
-    <None Include="model\monkey.mtl" />
+    <None Include="assets\Mazda.blend" />
+    <None Include="assets\monkey.fbx" />
+    <None Include="assets\monkey.mtl" />
     <None Include="dependencies\libraries\assimp-vc143-mtd.exp" />
     <None Include="dependencies\libraries\assimp-vc143-mtd.pdb" />
     <None Include="dependencies\includes\assimp\.editorconfig" />
@@ -1656,6 +1673,8 @@
     <None Include="shaders\button_frag_shader.glsl" />
     <None Include="shaders\cube_ver_shader.glsl" />
     <None Include="shaders\cube_frag_shader.glsl" />
+    <None Include="shaders\default.vert" />
+    <None Include="shaders\default.frag" />
   </ItemGroup>
   <ItemGroup>
     <Library Include="dependencies\libraries\assimp-vc143-mtd.lib" />
