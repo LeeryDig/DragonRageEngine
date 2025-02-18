@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="G:\Projetos\Engine\DragonRage\build\CMakeFiles\5c1f0aa8c5335c68541a4d4b1434986c\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{BBC801A0-C321-3E29-AE6A-7F03C61376DE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

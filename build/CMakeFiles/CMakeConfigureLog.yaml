@@ -1,0 +1,493 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "G:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "G:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "G:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "G:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Vers├úo do MSBuild 17.12.12+1cce77968 para .NET Framework
+      Compila├º├úo de 18/02/2025 12:07:56 iniciada.
+      
+      Projeto "G:\\Projetos\\Engine\\DragonRage\\build\\CMakeFiles\\3.31.5\\CompilerIdC\\CompilerIdC.vcxproj" no n├│ 1 (destinos padr├úo).
+      PrepareForBuild:
+        Criando o diret├│rio "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Criando o diret├│rio "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Criando "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+        Tocando "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        G:\\Program Files\\Microsoft\\VisualStudio\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        G:\\Program Files\\Microsoft\\VisualStudio\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> G:\\Projetos\\Engine\\DragonRage\\build\\CMakeFiles\\3.31.5\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=G:\\Program Files\\Microsoft\\VisualStudio\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Excluindo o arquivo "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Tocando "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Projeto de compila├º├úo pronto "G:\\Projetos\\Engine\\DragonRage\\build\\CMakeFiles\\3.31.5\\CompilerIdC\\CompilerIdC.vcxproj" (destinos padr├úo).
+      
+      Compila├º├úo com ├¬xito.
+          0 Aviso(s)
+          0 Erro(s)
+      
+      Tempo Decorrido 00:00:00.80
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        G:/Projetos/Engine/DragonRage/build/CMakeFiles/3.31.5/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "G:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "G:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "G:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Vers├úo do MSBuild 17.12.12+1cce77968 para .NET Framework
+      Compila├º├úo de 18/02/2025 12:07:57 iniciada.
+      
+      Projeto "G:\\Projetos\\Engine\\DragonRage\\build\\CMakeFiles\\3.31.5\\CompilerIdCXX\\CompilerIdCXX.vcxproj" no n├│ 1 (destinos padr├úo).
+      PrepareForBuild:
+        Criando o diret├│rio "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Criando o diret├│rio "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Criando "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+        Tocando "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        G:\\Program Files\\Microsoft\\VisualStudio\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        G:\\Program Files\\Microsoft\\VisualStudio\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> G:\\Projetos\\Engine\\DragonRage\\build\\CMakeFiles\\3.31.5\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=G:\\Program Files\\Microsoft\\VisualStudio\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Excluindo o arquivo "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Tocando "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Projeto de compila├º├úo pronto "G:\\Projetos\\Engine\\DragonRage\\build\\CMakeFiles\\3.31.5\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (destinos padr├úo).
+      
+      Compila├º├úo com ├¬xito.
+          0 Aviso(s)
+          0 Erro(s)
+      
+      Tempo Decorrido 00:00:00.79
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        G:/Projetos/Engine/DragonRage/build/CMakeFiles/3.31.5/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "G:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "G:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "G:/Projetos/Engine/DragonRage/build/CMakeFiles/CMakeScratch/TryCompile-8l3ov8"
+      binary: "G:/Projetos/Engine/DragonRage/build/CMakeFiles/CMakeScratch/TryCompile-8l3ov8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "G:/Projetos/vcpk/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "G:/Projetos/vcpk/vcpkg"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'G:/Projetos/Engine/DragonRage/build/CMakeFiles/CMakeScratch/TryCompile-8l3ov8'
+        
+        Run Build Command(s): "G:/Program Files/Microsoft/VisualStudio/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_efd8c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Vers├úo do MSBuild 17.12.12+1cce77968 para .NET Framework
+        Compila├º├úo de 18/02/2025 12:07:58 iniciada.
+        
+        Projeto "G:\\Projetos\\Engine\\DragonRage\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8l3ov8\\cmTC_efd8c.vcxproj" no n├│ 1 (destinos padr├úo).
+        PrepareForBuild:
+          Criando o diret├│rio "cmTC_efd8c.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Criando o diret├│rio "G:\\Projetos\\Engine\\DragonRage\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8l3ov8\\Debug\\".
+          Criando o diret├│rio "cmTC_efd8c.dir\\Debug\\cmTC_efd8c.tlog\\".
+        InitializeBuildStatus:
+          Criando "cmTC_efd8c.dir\\Debug\\cmTC_efd8c.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_efd8c.dir\\Debug\\cmTC_efd8c.tlog\\unsuccessfulbuild".
+        ClCompile:
+          G:\\Program Files\\Microsoft\\VisualStudio\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_efd8c.dir\\Debug\\\\" /Fd"cmTC_efd8c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "G:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.42.34436 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_efd8c.dir\\Debug\\\\" /Fd"cmTC_efd8c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "G:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          G:\\Program Files\\Microsoft\\VisualStudio\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"G:\\Projetos\\Engine\\DragonRage\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8l3ov8\\Debug\\cmTC_efd8c.exe" /INCREMENTAL /ILK:"cmTC_efd8c.dir\\Debug\\cmTC_efd8c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:/Projetos/Engine/DragonRage/build/CMakeFiles/CMakeScratch/TryCompile-8l3ov8/Debug/cmTC_efd8c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:/Projetos/Engine/DragonRage/build/CMakeFiles/CMakeScratch/TryCompile-8l3ov8/Debug/cmTC_efd8c.lib" /MACHINE:X64  /machine:x64 cmTC_efd8c.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_efd8c.vcxproj -> G:\\Projetos\\Engine\\DragonRage\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8l3ov8\\Debug\\cmTC_efd8c.exe
+        FinalizeBuildStatus:
+          Excluindo o arquivo "cmTC_efd8c.dir\\Debug\\cmTC_efd8c.tlog\\unsuccessfulbuild".
+          Tocando "cmTC_efd8c.dir\\Debug\\cmTC_efd8c.tlog\\cmTC_efd8c.lastbuildstate".
+        Projeto de compila├º├úo pronto "G:\\Projetos\\Engine\\DragonRage\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8l3ov8\\cmTC_efd8c.vcxproj" (destinos padr├úo).
+        
+        Compila├º├úo com ├¬xito.
+            0 Aviso(s)
+            0 Erro(s)
+        
+        Tempo Decorrido 00:00:00.88
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "G:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "G:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': G:/Program Files/Microsoft/VisualStudio/VC/Tools/MSVC/14.42.34433/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "G:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "G:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "G:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "G:/Program Files/Microsoft/VisualStudio/VC/Tools/MSVC/14.42.34433/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.42.34436.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "G:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "G:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "G:/Projetos/Engine/DragonRage/build/CMakeFiles/CMakeScratch/TryCompile-ddp6uz"
+      binary: "G:/Projetos/Engine/DragonRage/build/CMakeFiles/CMakeScratch/TryCompile-ddp6uz"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "G:/Projetos/vcpk/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "G:/Projetos/vcpk/vcpkg"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'G:/Projetos/Engine/DragonRage/build/CMakeFiles/CMakeScratch/TryCompile-ddp6uz'
+        
+        Run Build Command(s): "G:/Program Files/Microsoft/VisualStudio/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_aa353.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Vers├úo do MSBuild 17.12.12+1cce77968 para .NET Framework
+        Compila├º├úo de 18/02/2025 12:07:59 iniciada.
+        
+        Projeto "G:\\Projetos\\Engine\\DragonRage\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ddp6uz\\cmTC_aa353.vcxproj" no n├│ 1 (destinos padr├úo).
+        PrepareForBuild:
+          Criando o diret├│rio "cmTC_aa353.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Criando o diret├│rio "G:\\Projetos\\Engine\\DragonRage\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ddp6uz\\Debug\\".
+          Criando o diret├│rio "cmTC_aa353.dir\\Debug\\cmTC_aa353.tlog\\".
+        InitializeBuildStatus:
+          Criando "cmTC_aa353.dir\\Debug\\cmTC_aa353.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_aa353.dir\\Debug\\cmTC_aa353.tlog\\unsuccessfulbuild".
+        ClCompile:
+          G:\\Program Files\\Microsoft\\VisualStudio\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_aa353.dir\\Debug\\\\" /Fd"cmTC_aa353.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "G:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.42.34436 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_aa353.dir\\Debug\\\\" /Fd"cmTC_aa353.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "G:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          G:\\Program Files\\Microsoft\\VisualStudio\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"G:\\Projetos\\Engine\\DragonRage\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ddp6uz\\Debug\\cmTC_aa353.exe" /INCREMENTAL /ILK:"cmTC_aa353.dir\\Debug\\cmTC_aa353.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:/Projetos/Engine/DragonRage/build/CMakeFiles/CMakeScratch/TryCompile-ddp6uz/Debug/cmTC_aa353.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:/Projetos/Engine/DragonRage/build/CMakeFiles/CMakeScratch/TryCompile-ddp6uz/Debug/cmTC_aa353.lib" /MACHINE:X64  /machine:x64 cmTC_aa353.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_aa353.vcxproj -> G:\\Projetos\\Engine\\DragonRage\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ddp6uz\\Debug\\cmTC_aa353.exe
+        FinalizeBuildStatus:
+          Excluindo o arquivo "cmTC_aa353.dir\\Debug\\cmTC_aa353.tlog\\unsuccessfulbuild".
+          Tocando "cmTC_aa353.dir\\Debug\\cmTC_aa353.tlog\\cmTC_aa353.lastbuildstate".
+        Projeto de compila├º├úo pronto "G:\\Projetos\\Engine\\DragonRage\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ddp6uz\\cmTC_aa353.vcxproj" (destinos padr├úo).
+        
+        Compila├º├úo com ├¬xito.
+            0 Aviso(s)
+            0 Erro(s)
+        
+        Tempo Decorrido 00:00:00.82
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "G:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "G:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': G:/Program Files/Microsoft/VisualStudio/VC/Tools/MSVC/14.42.34433/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "G:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "G:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "G:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "G:/Program Files/Microsoft/VisualStudio/VC/Tools/MSVC/14.42.34433/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.42.34436.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "G:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "G:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "G:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "G:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "G:/Projetos/vcpk/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "G:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "G:/Projetos/vcpk/vcpkg/installed/x64-windows/share/glfw3/glfw3Config.cmake:2 (find_dependency)"
+      - "G:/Projetos/vcpk/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "CMakeLists.txt:12 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "G:/Projetos/Engine/DragonRage/build/CMakeFiles/CMakeScratch/TryCompile-son32q"
+      binary: "G:/Projetos/Engine/DragonRage/build/CMakeFiles/CMakeScratch/TryCompile-son32q"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "G:/Projetos/vcpk/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "G:/Projetos/vcpk/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'G:/Projetos/Engine/DragonRage/build/CMakeFiles/CMakeScratch/TryCompile-son32q'
+        
+        Run Build Command(s): "G:/Program Files/Microsoft/VisualStudio/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_40482.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Vers├úo do MSBuild 17.12.12+1cce77968 para .NET Framework
+        Compila├º├úo de 18/02/2025 12:08:00 iniciada.
+        
+        Projeto "G:\\Projetos\\Engine\\DragonRage\\build\\CMakeFiles\\CMakeScratch\\TryCompile-son32q\\cmTC_40482.vcxproj" no n├│ 1 (destinos padr├úo).
+        PrepareForBuild:
+          Criando o diret├│rio "cmTC_40482.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Criando o diret├│rio "G:\\Projetos\\Engine\\DragonRage\\build\\CMakeFiles\\CMakeScratch\\TryCompile-son32q\\Debug\\".
+          Criando o diret├│rio "cmTC_40482.dir\\Debug\\cmTC_40482.tlog\\".
+        InitializeBuildStatus:
+          Criando "cmTC_40482.dir\\Debug\\cmTC_40482.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_40482.dir\\Debug\\cmTC_40482.tlog\\unsuccessfulbuild".
+        ClCompile:
+          G:\\Program Files\\Microsoft\\VisualStudio\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_40482.dir\\Debug\\\\" /Fd"cmTC_40482.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "G:\\Projetos\\Engine\\DragonRage\\build\\CMakeFiles\\CMakeScratch\\TryCompile-son32q\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.42.34436 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_40482.dir\\Debug\\\\" /Fd"cmTC_40482.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "G:\\Projetos\\Engine\\DragonRage\\build\\CMakeFiles\\CMakeScratch\\TryCompile-son32q\\src.c"
+          src.c
+        G:\\Projetos\\Engine\\DragonRage\\build\\CMakeFiles\\CMakeScratch\\TryCompile-son32q\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [G:\\Projetos\\Engine\\DragonRage\\build\\CMakeFiles\\CMakeScratch\\TryCompile-son32q\\cmTC_40482.vcxproj]
+        Projeto de compila├º├úo pronto "G:\\Projetos\\Engine\\DragonRage\\build\\CMakeFiles\\CMakeScratch\\TryCompile-son32q\\cmTC_40482.vcxproj" (destinos padr├úo) -- FALHA.
+        
+        FALHA da compila├º├úo.
+        
+        "G:\\Projetos\\Engine\\DragonRage\\build\\CMakeFiles\\CMakeScratch\\TryCompile-son32q\\cmTC_40482.vcxproj" (destino padr├úo) (1) ->
+        (ClCompile destino) -> 
+          G:\\Projetos\\Engine\\DragonRage\\build\\CMakeFiles\\CMakeScratch\\TryCompile-son32q\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [G:\\Projetos\\Engine\\DragonRage\\build\\CMakeFiles\\CMakeScratch\\TryCompile-son32q\\cmTC_40482.vcxproj]
+        
+            0 Aviso(s)
+            1 Erro(s)
+        
+        Tempo Decorrido 00:00:00.45
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "G:/Program Files/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "G:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "G:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "G:/Projetos/vcpk/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "G:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "G:/Projetos/vcpk/vcpkg/installed/x64-windows/share/glfw3/glfw3Config.cmake:2 (find_dependency)"
+      - "G:/Projetos/vcpk/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "CMakeLists.txt:12 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "G:/Projetos/Engine/DragonRage/build/CMakeFiles/CMakeScratch/TryCompile-27e1ez"
+      binary: "G:/Projetos/Engine/DragonRage/build/CMakeFiles/CMakeScratch/TryCompile-27e1ez"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "G:/Projetos/vcpk/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "G:/Projetos/vcpk/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'G:/Projetos/Engine/DragonRage/build/CMakeFiles/CMakeScratch/TryCompile-27e1ez'
+        
+        Run Build Command(s): "G:/Program Files/Microsoft/VisualStudio/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_88674.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Vers├úo do MSBuild 17.12.12+1cce77968 para .NET Framework
+        Compila├º├úo de 18/02/2025 12:08:01 iniciada.
+        
+        Projeto "G:\\Projetos\\Engine\\DragonRage\\build\\CMakeFiles\\CMakeScratch\\TryCompile-27e1ez\\cmTC_88674.vcxproj" no n├│ 1 (destinos padr├úo).
+        PrepareForBuild:
+          Criando o diret├│rio "cmTC_88674.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Criando o diret├│rio "G:\\Projetos\\Engine\\DragonRage\\build\\CMakeFiles\\CMakeScratch\\TryCompile-27e1ez\\Debug\\".
+          Criando o diret├│rio "cmTC_88674.dir\\Debug\\cmTC_88674.tlog\\".
+        InitializeBuildStatus:
+          Criando "cmTC_88674.dir\\Debug\\cmTC_88674.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_88674.dir\\Debug\\cmTC_88674.tlog\\unsuccessfulbuild".
+        ClCompile:
+          G:\\Program Files\\Microsoft\\VisualStudio\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_88674.dir\\Debug\\\\" /Fd"cmTC_88674.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "G:\\Projetos\\Engine\\DragonRage\\build\\CMakeFiles\\CMakeScratch\\TryCompile-27e1ez\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.42.34436 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_88674.dir\\Debug\\\\" /Fd"cmTC_88674.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "G:\\Projetos\\Engine\\DragonRage\\build\\CMakeFiles\\CMakeScratch\\TryCompile-27e1ez\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          G:\\Program Files\\Microsoft\\VisualStudio\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"G:\\Projetos\\Engine\\DragonRage\\build\\CMakeFiles\\CMakeScratch\\TryCompile-27e1ez\\Debug\\cmTC_88674.exe" /INCREMENTAL /ILK:"cmTC_88674.dir\\Debug\\cmTC_88674.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:/Projetos/Engine/DragonRage/build/CMakeFiles/CMakeScratch/TryCompile-27e1ez/Debug/cmTC_88674.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:/Projetos/Engine/DragonRage/build/CMakeFiles/CMakeScratch/TryCompile-27e1ez/Debug/cmTC_88674.lib" /MACHINE:X64  /machine:x64 cmTC_88674.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [G:\\Projetos\\Engine\\DragonRage\\build\\CMakeFiles\\CMakeScratch\\TryCompile-27e1ez\\cmTC_88674.vcxproj]
+        Projeto de compila├º├úo pronto "G:\\Projetos\\Engine\\DragonRage\\build\\CMakeFiles\\CMakeScratch\\TryCompile-27e1ez\\cmTC_88674.vcxproj" (destinos padr├úo) -- FALHA.
+        
+        FALHA da compila├º├úo.
+        
+        "G:\\Projetos\\Engine\\DragonRage\\build\\CMakeFiles\\CMakeScratch\\TryCompile-27e1ez\\cmTC_88674.vcxproj" (destino padr├úo) (1) ->
+        (Link destino) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [G:\\Projetos\\Engine\\DragonRage\\build\\CMakeFiles\\CMakeScratch\\TryCompile-27e1ez\\cmTC_88674.vcxproj]
+        
+            0 Aviso(s)
+            1 Erro(s)
+        
+        Tempo Decorrido 00:00:00.66
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "G:/Program Files/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "G:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "G:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "G:/Projetos/vcpk/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "G:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "G:/Projetos/vcpk/vcpkg/installed/x64-windows/share/glfw3/glfw3Config.cmake:2 (find_dependency)"
+      - "G:/Projetos/vcpk/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "CMakeLists.txt:12 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "G:/Projetos/Engine/DragonRage/build/CMakeFiles/CMakeScratch/TryCompile-69mnz9"
+      binary: "G:/Projetos/Engine/DragonRage/build/CMakeFiles/CMakeScratch/TryCompile-69mnz9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_INSTALLED_DIR: "G:/Projetos/vcpk/vcpkg/installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "G:/Projetos/vcpk/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'G:/Projetos/Engine/DragonRage/build/CMakeFiles/CMakeScratch/TryCompile-69mnz9'
+        
+        Run Build Command(s): "G:/Program Files/Microsoft/VisualStudio/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_dbdb4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Vers├úo do MSBuild 17.12.12+1cce77968 para .NET Framework
+        Compila├º├úo de 18/02/2025 12:08:02 iniciada.
+        
+        Projeto "G:\\Projetos\\Engine\\DragonRage\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69mnz9\\cmTC_dbdb4.vcxproj" no n├│ 1 (destinos padr├úo).
+        PrepareForBuild:
+          Criando o diret├│rio "cmTC_dbdb4.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Criando o diret├│rio "G:\\Projetos\\Engine\\DragonRage\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69mnz9\\Debug\\".
+          Criando o diret├│rio "cmTC_dbdb4.dir\\Debug\\cmTC_dbdb4.tlog\\".
+        InitializeBuildStatus:
+          Criando "cmTC_dbdb4.dir\\Debug\\cmTC_dbdb4.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_dbdb4.dir\\Debug\\cmTC_dbdb4.tlog\\unsuccessfulbuild".
+        ClCompile:
+          G:\\Program Files\\Microsoft\\VisualStudio\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dbdb4.dir\\Debug\\\\" /Fd"cmTC_dbdb4.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "G:\\Projetos\\Engine\\DragonRage\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69mnz9\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.42.34436 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dbdb4.dir\\Debug\\\\" /Fd"cmTC_dbdb4.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "G:\\Projetos\\Engine\\DragonRage\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69mnz9\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          G:\\Program Files\\Microsoft\\VisualStudio\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"G:\\Projetos\\Engine\\DragonRage\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69mnz9\\Debug\\cmTC_dbdb4.exe" /INCREMENTAL /ILK:"cmTC_dbdb4.dir\\Debug\\cmTC_dbdb4.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:/Projetos/Engine/DragonRage/build/CMakeFiles/CMakeScratch/TryCompile-69mnz9/Debug/cmTC_dbdb4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:/Projetos/Engine/DragonRage/build/CMakeFiles/CMakeScratch/TryCompile-69mnz9/Debug/cmTC_dbdb4.lib" /MACHINE:X64  /machine:x64 cmTC_dbdb4.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [G:\\Projetos\\Engine\\DragonRage\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69mnz9\\cmTC_dbdb4.vcxproj]
+        Projeto de compila├º├úo pronto "G:\\Projetos\\Engine\\DragonRage\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69mnz9\\cmTC_dbdb4.vcxproj" (destinos padr├úo) -- FALHA.
+        
+        FALHA da compila├º├úo.
+        
+        "G:\\Projetos\\Engine\\DragonRage\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69mnz9\\cmTC_dbdb4.vcxproj" (destino padr├úo) (1) ->
+        (Link destino) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [G:\\Projetos\\Engine\\DragonRage\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69mnz9\\cmTC_dbdb4.vcxproj]
+        
+            0 Aviso(s)
+            1 Erro(s)
+        
+        Tempo Decorrido 00:00:00.64
+        
+      exitCode: 1
+...
